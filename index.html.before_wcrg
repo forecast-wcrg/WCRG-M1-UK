@@ -1425,15 +1425,6 @@
                 <i class="fas fa-circle-check"></i><span>Choose a location to calculate local weather alerts.</span>
             </div>
         </div>
-        <div class="glass-card developer-credit-card">
-            <div class="card-title"><i class="fas fa-code"></i> Dashboard Credits</div>
-            <div style="text-align:center; color:var(--text-dim); font-size:.76rem; line-height:1.5;">
-                Designed, Developed &amp; Maintained by<br>
-                <a href="https://singhshiwam.github.io/" target="_blank" rel="noopener" style="color:var(--accent-pink); font-weight:800; text-decoration:none;">
-                    <i class="fas fa-user-gear"></i> Shiwam Singh
-                </a>
-            </div>
-        </div>
     </div>
 
       </div><!-- /.sheet-scroll -->
@@ -1539,7 +1530,7 @@
             // shows under the forecast overlay. Users can change it in Controls.
             basemap: { cartoApiKey: "", detail: "medium" },
 
-            forecastStart: new Date("2026-09-29T05:30:00+05:30"),
+            forecastStart: new Date("2026-10-12T05:30:00+05:30"),
             baseFrameTime: 1000,
             debugMode: true,
             wrfBounds: [[28.2639, 76.6887], [31.6276, 81.1222]],
